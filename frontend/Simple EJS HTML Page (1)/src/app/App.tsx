@@ -398,9 +398,7 @@ export default function App() {
         <div className="bg-white rounded-lg shadow-sm p-6 mb-6">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="bg-blue-100 p-3 rounded-lg">
-                <FileText className="size-6 text-blue-600" />
-              </div>
+              <img src="/images/logo.svg" alt="PROFEI logo" className="h-12 w-12 object-contain bg-white rounded" />
               <div>
                 <h1>Sistema PROFEI</h1>
                 <p className="text-gray-600">
