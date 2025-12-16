@@ -49,4 +49,25 @@ Observações
 - Se o Vite não responder via proxy, pare e reinicie o servidor do Vite (`Ctrl+C` no terminal do Vite, depois `npm run dev`).
 - Para ajustar origens permitidas em produção, edite `CorsConfig.java` e reinicie o backend.
 
+**Nota importante (histórico reescrito):** eu reescrevi o histórico do Git para remover grandes arquivos ZIP que deveriam ter sido ignorados. Se você já clonou o repositório antes desta alteração, o jeito mais simples é re-clonar o repositório:
+
+```powershell
+# opção recomendada (re-clone)
+# 1) guarde mudanças locais (se houver)
+# 2) delete o clone antigo e faça um clone limpo
+git clone https://github.com/Raimundo11111/respositorio.git
+```
+
+Se precisar atualizar um clone existente (cuidado — isso reescreverá sua cópia local), você pode forçar um reset para o estado remoto:
+
+```powershell
+# AVISO: pode sobrescrever alterações locais!
+git fetch origin
+git checkout main
+git reset --hard origin/main
+git clean -fdx
+```
+
+Se preferir, eu posso cuidar de avisar colaboradores e criar instruções mais detalhadas.
+
 Se quiser, faço agora um pequeno commit com essas mudanças, ou crio um script `.env.example` no frontend. Qual você prefere? 
