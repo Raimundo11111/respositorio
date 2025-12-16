@@ -15,3 +15,4 @@
 uploads/
 *.sql
 /.mvn/wrapper/maven-wrapper.jar
+*.zip
