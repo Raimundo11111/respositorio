@@ -22,3 +22,5 @@ Notes:
 - Backend will use the MySQL configuration defined in `backend/profeiApi-main/assistenciaApi-main/src/main/resources/application.properties`.
 - Ensure your MySQL server is running and accessible at `127.0.0.1` and that a database named `repositorio` exists, or create it before starting.
 - Backend depends on `mvnw.cmd` being executable; frontend uses `npm run dev` (install dependencies with `npm install` inside the frontend folder).
+
+**Nota importante (histórico reescrito):** o histórico do Git foi reescrito para remover arquivos ZIP grandes que haviam sido acidentalmente cometidos. Se você já clonou este repositório antes deste ajuste, faça um novo clone em vez de tentar mesclar (ou, caso saiba o que está fazendo, force reset: `git fetch origin && git reset --hard origin/main`). Todos os colaboradores que possuem cópias antigas deverão re-clonar ou sincronizar cuidadosamente para evitar conflitos.
