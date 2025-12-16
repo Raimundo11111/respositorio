@@ -1,0 +1,17 @@
+/node_modules/
+/frontend/**/node_modules/
+/backend/**/target/
+**/target/
+*.log
+*.tmp
+*.env
+.DS_Store
+.vscode/
+.idea/
+*.iml
+*.class
+*.jar
+*.war
+uploads/
+*.sql
+/.mvn/wrapper/maven-wrapper.jar
